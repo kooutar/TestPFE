@@ -11,7 +11,7 @@ public class Ticket implements  Comparable<Ticket> {
     private Priorite priorite;
     private Statut statut;
     private Date dateCreation;
-    private int tempsEstime; // en minutes
+    private int tempsEstime;
 
     public Ticket(int id, Priorite priorite, Statut statut, Date dateCreation, int tempsEstime) {
         this.id = id;
